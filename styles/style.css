@@ -89,19 +89,18 @@ main {
     align-items: center;
 }
 
-.card-content div:nth-child(4) > p:nth-child(1) {
+.card-content div:nth-child(4) > p {
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: 32px;
     color: var(--primary-dark-cyan);
 }
 
-.card-content div:nth-child(4) > p:nth-child(2) {
+.card-content div:nth-child(4) > del {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 13px;
     color: var(--secundary-dark-grayish-blue);
-    text-decoration: line-through;
     margin-left: 1rem;
 }
 
